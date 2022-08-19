@@ -6,22 +6,13 @@ let lengthcheck = (`${password.length}`)
 
 if (lengthcheck >= 10 && /\d/.test(password) && /[a-zA-Z]/.test(password) && password.indexOf(' ') <= 0)
 {
-  console.log (passwordpass)
+    console.log ("PASSWORD WAS A SUCCESS")
 }
 else
 {
-console.log ('pasPASSWORD WAS A FAILURE')
+console.log ("PASSWORD WAS A FAIL")
 }
 
 // ADDITIONAL CHECKS
 // 1. checking to see if password contains any spaces
 // 2. 
-
-let passwordpass = 
-'______  ___   _____ _____  _    _  _________________   _    _  ___   _____    ___    _____ _   _ _____  _____  _____ _____ _____ 
-| ___ \/ _ \ /  ___/  ___|| |  | ||  _  | ___ \  _  \ | |  | |/ _ \ /  ___|  / _ \  /  ___| | | /  __ \/  __ \|  ___/  ___/  ___|
-| |_/ / /_\ \\ `--.\ `--. | |  | || | | | |_/ / | | | | |  | / /_\ \\ `--.  / /_\ \ \ `--.| | | | /  \/| /  \/| |__ \ `--.\ `--. 
-|  __/|  _  | `--. \`--. \| |/\| || | | |    /| | | | | |/\| |  _  | `--. \ |  _  |  `--. \ | | | |    | |    |  __| `--. \`--. \
-| |   | | | |/\__/ /\__/ /\  /\  /\ \_/ / |\ \| |/ /  \  /\  / | | |/\__/ / | | | | /\__/ / |_| | \__/\| \__/\| |___/\__/ /\__/ /
-\_|   \_| |_/\____/\____/  \/  \/  \___/\_| \_|___/    \/  \/\_| |_/\____/  \_| |_/ \____/ \___/ \____/ \____/\____/\____/\____/ 
-'
